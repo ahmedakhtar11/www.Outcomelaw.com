@@ -1,0 +1,364 @@
+/*ALL PAGES*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body{
+    background-color: #FCFDF8;
+}
+.navbar {
+        background-color: #9F81F7;
+        border-bottom: 1px solid grey;
+        font-family: 'Mogra', cursive;
+}
+.nav-link:first-child{
+    margin-left: 50px;
+
+}
+
+/*END OF ALL PAGES*/
+/*ABOUT PAGE*/
+/*Start Map Contact Form Styling*/
+
+#contactinfo {
+color: white;
+font-size: 24px;
+text-shadow: 1px 1px black;
+}
+
+
+#contact {
+    background-color: #9F81F7;
+    color: #282828;
+    border-top: solid black 1px;
+    font-family: "Roboto", Monaco, monospace;
+    bottom: 0;
+}
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+    text-shadow: 1px 1px white;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid #1e1e1e;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #1e1e1e;
+}
+
+#contact .row{
+    padding-bottom:20px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+    margin-bottom: 15px;
+    } 
+}
+blockquote{
+    padding: 25px 0px 25px;
+}
+#map {
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+}
+image {
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+h4 {
+  text-shadow: 1px 1px white;
+  font-family: 'Mogra', cursive;
+}
+.quote-logo {
+    margin-top: 20px;
+    border-radius:50%;
+    margin-bottom: 20px;
+    border: .5px solid black;
+}
+.aboutimage{
+		border: 1px solid darkgray;
+		box-shadow: 2px 2px 20px #9F81F7;		
+}
+.overlay {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        z-index: 1;
+        color: white;
+        font-size: 80px;
+        font-weight: bold;
+        text-shadow: 2px 2px black;
+        font-size: 6vw;
+}
+
+.container video {
+    position:relative;
+    z-index:0;
+}
+#video {
+      z-index: 0;
+        position: relative;
+        height: 400px;
+        height: 50%;
+        width: 100%;
+        object-fit: fill;
+        right: 0;
+        border-bottom: 1px solid black;
+        border-top: solid black 1px;
+}
+#footers {
+    position: relative;
+    font-family: 'Mogra', cursive;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    background-color: #8181F7;
+    width: 100%;
+    border-top: 1px solid grey;
+
+}
+footer{
+    margin-top: 0px;
+}
+.description {
+        text-align: center;
+        font-size: 24px;
+        color: #404040;
+        margin-left: 100px;
+        margin-right: 100px;
+}
+.countertitle {
+    font-size:24px;
+}
+.countertitle2 {
+    font-size: 18px;
+}
+
+.counter {
+        align-content: center;
+        align-items: center;
+        margin: 100px auto 0;
+        text-align: center;
+        margin: 1.5%;
+        font-size: 30px;
+        background-color: #FfFFFF;
+        width: 200px;
+        border-radius: 50%;
+        height: 200px;
+        vertical-align: middle;
+}
+/*Counter Class of slowing increasing number.(Total-((Total-200)(# Hours)*/
+.counter2 {
+        align-content: center;
+        align-items: center;
+        margin: 100px auto 0;
+        text-align: center;
+        margin: 1.5%;
+        font-size: 40px;
+        background-color: #FfFFFF;
+        width: 200px;
+        border-radius: 50%;
+        height: 200px;
+        vertical-align: middle;
+}
+#counter{  
+        margin: 50px;
+         color: #68696b;
+        margin-left: 120px
+}
+.logo2 {
+    margin-left: 5px;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+    margin: 100px auto 0;
+    text-align: center;
+    margin-top: 300px;
+}
+.logodiv {
+    margin-left: 5px;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+    margin: 100px auto 0;
+    text-align: center;
+    margin-top: 300px;
+}
+.titles {
+    margin-top: 30px;
+    color: #505050;
+}
+.about {
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+    border: solid gray 1px;
+}
+.aboutpage{
+    background-color: #F8F8F8;
+}
+.form-signin{
+    margin-top: 100px;
+}
+#signin{
+    margin-bottom: 50%;
+    margin-top: 50px;
+}
+.quickstart-user-details-container{
+    display: block;
+}
+/*MATCH PAGE*/
+#image1, #image2, #image3{
+    border: 2px solid black;
+
+}
+#matchTitle{
+    text-align: center;
+    font-size: 35px;
+    margin: 20px auto 20px auto;
+}
+#searchTitle{
+    text-align: center;
+    font-size: 35px;
+    margin: 20px auto 20px auto;
+    color: white;
+}
+#randomImage0, #randomImage1, #randomImage2{
+    text-align: center;
+}
+#randomName0, #randomName1, #randomName2{
+    text-align: center;
+    font-size: 22px;
+}
+.visitedImage{
+    width: 100%;
+    height: 300px;
+}
+#search{
+    text-align: center;
+}
+.searchImage{
+    width: 100%;
+    height: 500px;
+}
+
+#searchbar{
+    margin-top: 30px;
+    background-color: #9F81F7; 
+    padding-bottom: 20px;
+}
+#inputTitle{
+    color: white;
+    font-size: 20px;
+}
+#match{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#map{
+    width: 100%;
+    height: 430px;
+}
+
+
+
+/*Defense Generator Page*/
+.submitbuttongenerator {
+	margin-left:50%;
+}
+
+#defenses {
+
+border: solid black 1px;
+margin-left:10%;
+}
+
+#analogies {
+
+border: solid black 1px;
+margin-left:4%;	
+}
+
+#precedents {
+	
+border: solid black 1px;
+margin-right:10%;
+}
+
+#card1{
+background-color:mediumseagreen;
+color:white;
+}
+#card2{
+background-color:steelblue;
+color:white;
+}
+#card3{
+background-color:palevioletred;
+color:white;
+}
+
+
+/*END MATCH PAGE*/
+
+/*Defense generator Dropdown*/
+
+.dropdown-check-list {
+  display: inline-block;
+}
+.dropdown-check-list .anchor {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 50px 5px 10px;
+  border: 1px solid #ccc;
+}
+.dropdown-check-list .anchor:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  padding: 5px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.dropdown-check-list .anchor:active:after {
+  right: 8px;
+  top: 21%;
+}
+.dropdown-check-list ul.items {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.dropdown-check-list ul.items li {
+  list-style: none;
+}
+/*End generator Dropdown*/
+
+
+
+
+
+
+
